@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-RoutingApplication<routing>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.emergency.routing.RoutingApplication",
+      "projectName": "routing",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
