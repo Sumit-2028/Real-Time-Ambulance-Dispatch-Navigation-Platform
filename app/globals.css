@@ -51,3 +51,37 @@ body {
 .status-unavailable {
   background: #ef4444;
 }
+
+/* Leaflet map styling */
+.leaflet-container {
+  font-family: inherit;
+  background: var(--background);
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  padding: 0;
+}
+
+.leaflet-popup-content-wrapper {
+  background: var(--card);
+  color: var(--foreground);
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.leaflet-popup-content-wrapper a {
+  color: var(--primary);
+}
+
+.leaflet-popup-tip {
+  background: var(--card);
+}
+
+.leaflet-popup-close-button {
+  color: var(--muted);
+}
+
+.leaflet-popup-close-button:hover {
+  color: var(--foreground);
+}
