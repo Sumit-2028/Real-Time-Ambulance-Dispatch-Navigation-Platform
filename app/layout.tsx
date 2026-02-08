@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Real-Time Ambulance Dispatch Navigation',
-  description: 'Real-time ambulance dispatch and navigation platform',
+  title: 'Emergency Dispatch System',
+  description: 'Real-time ambulance dispatch with traffic-aware routing and priority-based navigation',
 }
 
 export const viewport = {
-  themeColor: '#ffffff',
+  themeColor: '#0f0f12',
 }
 
 export default function RootLayout({

@@ -3,18 +3,51 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #000000;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #000000;
-    --foreground: #ffffff;
-  }
+  --background: #0f0f12;
+  --foreground: #ffffff;
+  --card: #1a1a1f;
+  --card-foreground: #ffffff;
+  --primary: #00d9ff;
+  --primary-foreground: #000000;
+  --secondary: #ff6b6b;
+  --secondary-foreground: #ffffff;
+  --accent: #4ecdc4;
+  --muted: #6b7280;
+  --muted-foreground: #d1d5db;
+  --border: #2d2d35;
+  --radius: 0.5rem;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+/* Traffic color indicators */
+.traffic-low {
+  color: #10b981;
+}
+
+.traffic-medium {
+  color: #f59e0b;
+}
+
+.traffic-high {
+  color: #ef4444;
+}
+
+/* Status indicators */
+.status-active {
+  background: #10b981;
+}
+
+.status-idle {
+  background: #6366f1;
+}
+
+.status-unavailable {
+  background: #ef4444;
 }
